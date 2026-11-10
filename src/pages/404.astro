@@ -1,0 +1,14 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import { withBase } from "@/lib/paths";
+---
+
+<Layout title="No encontrada — Factura Libre">
+  <section class="rounded-2xl border border-line bg-elev p-10 shadow-paper">
+    <h1 class="font-display text-3xl">Página no encontrada</h1>
+    <p class="mt-2 text-mute">Esa ruta no existe en Factura Libre.</p>
+    <a class="mt-6 inline-flex rounded-full bg-accent px-4 py-2 text-sm font-semibold text-white" href={withBase()}>
+      Volver al inicio
+    </a>
+  </section>
+</Layout>

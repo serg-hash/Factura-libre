@@ -1,0 +1,16 @@
+name: Idea
+description: Proponer una mejora
+title: "[idea] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Qué te gustaría
+      description: Recuerda que Factura Libre no pretende ser software certificado ni Veri*Factu.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Por qué ayuda a un autónomo o pyme

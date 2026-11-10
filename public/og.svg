@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Factura Libre">
+  <rect width="1200" height="630" fill="#f4efe6"/>
+  <rect width="1200" height="18" fill="#9c3b1e"/>
+  <text x="80" y="200" font-family="Georgia, serif" font-size="72" fill="#1c1915">Factura Libre</text>
+  <text x="80" y="280" font-family="Georgia, serif" font-size="36" fill="#5c564c">Facturas para autónomos, en el navegador.</text>
+  <text x="80" y="400" font-family="Georgia, serif" font-size="24" fill="#9c3b1e">IVA · IRPF · PDF · Facturae sin firmar · offline</text>
+  <rect x="80" y="460" width="280" height="64" rx="32" fill="#9c3b1e"/>
+  <text x="220" y="502" text-anchor="middle" font-family="Georgia, serif" font-size="24" fill="#fffdf8">Gratis y open source</text>
+</svg>

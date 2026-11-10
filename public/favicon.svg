@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Factura Libre">
+  <rect width="64" height="64" rx="16" fill="#9c3b1e"/>
+  <rect x="16" y="12" width="32" height="40" rx="3" fill="#fffdf8"/>
+  <path d="M22 24h20M22 30h20M22 36h14" stroke="#9c3b1e" stroke-width="2.4" stroke-linecap="round"/>
+  <circle cx="44" cy="46" r="9" fill="#1f6f5b"/>
+  <path d="M40.5 46.2l2.2 2.2 5-5" fill="none" stroke="#fffdf8" stroke-width="2" stroke-linecap="round"/>
+</svg>
