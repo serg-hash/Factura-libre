@@ -1,0 +1,10 @@
+---
+import Editor from "@/app/Editor";
+import Layout from "@/layouts/Layout.astro";
+
+const invoiceId = Astro.url.searchParams.get("id") ?? undefined;
+---
+
+<Layout title="Factura — Factura Libre">
+  <Editor client:only="react" invoiceId={invoiceId} />
+</Layout>

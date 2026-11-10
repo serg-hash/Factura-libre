@@ -1,0 +1,55 @@
+{
+  "name": "factura-libre",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Generador de facturas gratis, offline y de código abierto para autónomos y pymes en España.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "check": "astro check",
+    "lint": "eslint .",
+    "typecheck": "astro sync && tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "format": "prettier --write .",
+    "screenshots": "playwright test e2e/screenshots.spec.ts"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/serg-hash/Factura-libre.git"
+  },
+  "bugs": {
+    "url": "https://github.com/serg-hash/Factura-libre/issues"
+  },
+  "homepage": "https://serg-hash.github.io/Factura-libre/",
+  "dependencies": {
+    "@astrojs/react": "^7.1.5",
+    "astro": "^7.4.8",
+    "lucide-react": "^1.71.0",
+    "pdf-lib": "^1.17.1",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.12",
+    "@eslint/js": "^10.0.1",
+    "@playwright/test": "^1.65.0",
+    "@tailwindcss/vite": "^4.3.5",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "eslint": "^10.14.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "prettier": "^3.9.10",
+    "tailwindcss": "^4.3.5",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.72.2",
+    "vitest": "^5.1.0"
+  }
+}

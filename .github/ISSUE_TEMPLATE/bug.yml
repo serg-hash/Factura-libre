@@ -1,0 +1,30 @@
+name: Error
+description: Algo no funciona
+title: "[bug] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: Qué ocurre
+      description: Describe el problema. No pegues datos personales, NIF reales ni facturas reales.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Cómo reproducirlo
+      placeholder: |
+        1. Cargar ejemplo
+        2. Abrir una factura
+        3. …
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Navegador
+      placeholder: Firefox 133, Chromium 130…
+  - type: markdown
+    attributes:
+      value: No adjuntes copias de seguridad con datos reales.

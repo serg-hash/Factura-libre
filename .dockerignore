@@ -1,0 +1,11 @@
+node_modules
+dist
+.astro
+.git
+.github
+test-results
+playwright-report
+coverage
+docs/images
+*.md
+!README.md
